@@ -1,0 +1,195 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F7FAFF;
+}
+
+.pannel {
+    position:relative
+}
+.dashboard {
+    width: 200px;
+    background-color: #F7FAFF;
+    height: 100%;
+    position: fixed;
+    border-right: 10px solid #F8DBDD;
+}
+
+.logo {
+    margin: 5px;
+    background: #fff;
+    padding: 18px 16px;
+    border-radius: 7px;
+}
+
+    .logo img {
+        width: 165px;
+    }
+
+.routers {
+    font-size: 17px;
+}
+
+    .routers .routers-Lists {
+        list-style: none;
+        padding:10px;
+        
+    }
+
+        .routers .routers-Lists li {
+            padding: 15px 25px 15px 30px;
+            font-size:15px;
+            border-radius:35px;
+            transition: .2s;
+        }
+
+        .routers .routers-Lists a {
+            color: #676b84;
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+        }
+        .routers .routers-Lists a i{
+            margin-right:15px
+        }
+            .routers .routers-Lists li:hover {
+            background-color: #eee;
+        }
+
+                .routers .routers-Lists li:hover a {
+                    color: #1f253a;
+                    font-weight: bold;
+                }
+
+
+
+.product {
+    background: #fff;
+    position: absolute;
+    left: 15%;
+    padding: 20px 50px;
+    margin-top: 35px;
+    box-shadow:0px 10px 20px #ccc;
+    min-width:1170px
+
+}
+    .product .table-container{
+    max-height:480px;
+    overflow-y:scroll;
+    width:100%;
+}
+    .product table td,
+    .product table th{
+        padding: 15px;
+    }
+.logout {
+    color: #00003e !important;
+    font-weight:bold
+}
+
+.createOne {
+    padding: 20px;
+    background: #F7FAFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.userAccount h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size:30px
+}
+.userAccount #editSave{
+    background:#5b6bdc 
+}
+/*.userAccount #backToList{
+    text-decoration:none;
+    margin-left:40%
+}*/
+.count {
+    text-align: center;
+    color: #fff;
+    padding: 35px 60px;
+    margin :10px;
+}
+
+.productCount {background: #CB48BC;}
+.categoryCount {
+    background: #3368C7
+}
+.userCount {
+        background: #3B9AF8
+    }
+.orderCount {
+        background: #D84052
+    }
+.price {
+    color: #D84052;
+    font-weight: bold;
+}
+.partial{
+    margin-right:20px
+}
+.editable-title{
+/*    margin-top:30px;
+*/
+
+}
+.editable {
+    border: 2px solid #ddd;
+    padding:10px 20px;
+    margin:30px 0;
+}
+.EditForm{
+    
+}
+    .EditForm label {
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+        font-size: 16px;
+        font-style: normal;
+    }
+
+    .EditForm input.text {
+        padding: 12px 15px;
+        border-width: 1px 1px 3px 1px;
+        border-radius: 1px;
+        border-color: #f2f2f2;
+        font-size: 16px;
+        background-color: #fcfcfc;
+        min-height: 55px;
+    }
+
+    .EditForm input[type="submit"] {
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding: 12px 20px;
+        background-color: #009288;
+        border-radius: 30px;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        transition: all 0.3s ease;
+        
+    }
+
+.BackToList{text-align:center;}
+.EditForm input[type="submit"]:hover {
+    background-color: #28B4AA
+}
+.EditForm a{
+    margin:10px 0;
+}
+.deleteImage {
+    margin: 10px 20px !important;
+    margin-top: 0px !important;
+}

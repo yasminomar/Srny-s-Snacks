@@ -1,0 +1,353 @@
+﻿@import url('httpss://fonts.googleapis.com/css?family=Roboto');
+
+#main {
+    position: relative;
+    margin-top:-60px;
+}
+
+.page-header {
+    padding: 100px 0 34px 0;
+    background-color: #2e3b42;
+    background-image: url(https://sarahssnacks.com/wp-content/uploads/2019/11/PBJ.png) !important;
+    background-position: center center;
+    position: relative;
+}
+
+.backgraound-img {
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    height: 400px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header .container {
+    width: 600px;
+    position: relative;
+}
+
+.backgraound-img .page-header-inner {
+    text-align: center;
+}
+
+.page-header .page-header-title,
+.page-header .backgraound-img .page-header-title {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.page-header.backgraound-img .page-header-title {
+    position: relative;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.page-header-title {
+    display: block;
+    margin: 0;
+    margin-top:40px;
+}
+
+.page-header .page-subheading {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.backgraound-img .page-subheading {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    z-index: 2;
+}
+
+.background-image-page-header-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+    opacity: .5;
+}
+
+#main #content-wrap,
+.separate-layout #main #content-wrap {
+    padding-top: 50px;
+    
+}
+
+.containerrr {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    position: relative;
+}
+
+.form-con {
+    margin-right: 500px;
+}
+
+.signup-form {
+    font-family: "Roboto", sans-serif;
+    width: 650px;
+    margin: 30px auto;
+    background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+    border-radius: 10px;
+}
+
+.form-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    .form-header .contact-h2 {
+        font-size: 40px;
+        color: #666;
+        padding: 20px 0;
+        border-bottom: 1px solid #cccccc;
+    }
+
+.form-body {
+    padding: 10px 40px;
+    color: #666;
+}
+
+.form-group {
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+.form-body .label-title {
+    color: #009288;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+
+/*
+.horizontal-group .left {
+    float: left;
+    width: 49%;
+}
+
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+}
+*/
+
+/*.form-footer {
+    clear: both;
+}*/
+
+.signup-form .form-footer {
+    background-color: #EFF0F1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+    border-top: 1px solid #cccccc;
+}
+
+.form-footer .contact-span {
+    float: left;
+    margin-top: 10px;
+    color: #999;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009288;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: #bcf5e7;
+    cursor: pointer;
+}
+
+    .contact-btn:hover {
+        background-color: #169c7b;
+        color: white;
+    }
+
+.contact-card {
+    background-color: #009288;
+    width: 370px;
+    height: 700px;
+    position: absolute;
+    margin-left: 630px;
+    padding: 10px;
+    padding-top: 80px;
+    margin-top: -40px;
+    opacity: 1;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.card-head {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.first {
+    line-height: 1.4em;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ull {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    color: #ffffff;
+}
+
+.li1 {
+    padding-bottom: calc(15px/2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: inherit;
+    transition: all 0.3s ease;
+}
+
+.iicon {
+    text-align: var(--e-icon-list-icon-align);
+    display: flex;
+    padding-right: 10px;
+}
+
+.social-icon {
+    grid-template-columns: var(--grid-template-columns);
+    -webkit-box-pack: var(--justify-content,center);
+    -ms-flex-pack: var(--justify-content,center);
+    justify-content: var(--justify-content,center);
+    justify-items: var(--justify-content,center);
+    display: inline-block;
+    width: 100%;
+    word-spacing: var(--grid-column-gap);
+    margin-bottom: calc(-1 * var(--grid-row-gap));
+}
+
+.ii {
+    display: inline-block;
+    margin-bottom: var(--grid-row-gap);
+    word-break: break-word;
+    min-width: 0;
+    padding-right: 25px;
+}
+
+.learn {
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.4px;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.lll {
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+
+.oew-buttons .contact-btn {
+    list-style: none;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 80px;
+}
+
+.sec1 {
+    background-image: url(https://sarahssnacks.com/wp-content/uploads/2019/10/granola-bg.jpg);
+    background-position: 105% -25px;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+    padding: 0;
+}
+
+.sec-container {
+    height: 500px;
+    width: 600px;
+    text-align: center;
+}
+
+.con {
+    height: 200px;
+    width: 800px;
+    margin: 80px;
+    margin-left: -60px;
+    padding: 100px
+}
+
+.word {
+    color: #814029;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.uu {
+    text-align: center;
+    margin-left: -137px;
+}

@@ -1,0 +1,206 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model SRNY.Models.ProductViewModel
+<div class="text-center" style="margin-top:-200px;">
+    <div class="fbody">
+        <div class="text">
+            <h1 class="headtxt">INISPIRING MINDFUL</h1>
+            <h1 class="headtxt" style="font-size:80px;font-weight: bold;">SNACKING</h1>
+            <h5>FREE SHIPPING ON ORDERS OVER $50</h5>
+        </div>
+        <a class="btn firstbtn" href="/product/index">SHOP NOW <i class="fa-solid fa-arrow-right-long"></i></a>
+         <div style="margin-left:600px; margin-top:30px;">
+            <img style="width:600px;height:300px;top:0;" src="/assets/images/home/testimonial-background.jpg"/> 
+         </div>
+    </div>
+    <div class="d-flex" style="height:500px;">
+        <div class="left">
+            <img src="/assets/images/home/iStock-1088608090Copy.jpg" />
+             <div class="center">ORDER ONLINE<br /> TODAY</div>
+        </div>
+         <div class="ashs">
+             <h3>FEEL GOOD ABOUT</h3>
+             <h2>WHAT YOU EAT!</h2>
+             <p>Good snacks are important, because food plays such an important role in our lives.<br /> It affects how we look, how we feel, and how we perform. As a Registered Dietitian, <br>I create flavorful snacks that allow you to feel good about what you eat</p>
+              <div style="margin-top:30px;display:flex;">
+                 <a href="/product/Category/3" >
+                     <div style="text-align:center" class="me-3">
+                         <div style="color:#4E3629;border:1px solid #4E3629;width:50px;text-align:center;border-radius:50%;height:50px;">
+                            <i class="fa-brands fa-pagelines" style="padding-top:15px;"></i>
+                         </div>
+                         <p style="color:brown;font-size:10px;">GRAIN<br /> FREE</p>
+                     </div>
+                 </a>
+                 <a href="/product/Category/6" >
+                     <div style="text-align:center" class="me-3">
+                         <div style="color:#4E3629;border:1px solid #4E3629;width:50px;text-align:center;border-radius:50%;height:50px;">
+                            <i class="fa-solid fa-cookie" style="padding-top:15px;"></i>
+                         </div>
+                         <p style="color:brown;font-size:10px;">HEALTHY<br /> SNACKS</p>
+                     </div>
+                 </a>
+                 <a href="/product/Category/7" >
+                     <div style="text-align:center">
+                         <div style="color:#4E3629;border:1px solid #4E3629;width:50px;text-align:center;border-radius:50%;height:50px;">
+                          <i class="fa fa-leaf" aria-hidden="true" style="padding-top:15px;"></i>
+                         </div>
+                         <p style="color:brown;font-size:10px;">VEGAN<br>BRITLE</p>
+                     </div>
+                 </a>   
+             </div>
+        </div>
+    </div>
+</div>
+<section>
+    <div class="d-flex justify-content-between slideshow">
+        <div class=" slideshow-container slide"style="margin-right:50px;padding-right:50px;">
+
+         <form asp-action="Index" asp-controller="Product"method="post">
+            <div class="d-flex ">
+                @foreach(var product in Model.ProductList){
+                    <div class="card homecard" style="width: 243px; border:hidden; margin-bottom:30px;margin-right:20px;">
+                        @foreach(var img in ViewBag.imgs){
+                            if(@product.Id== @img.ProductId)
+                            {
+                                <div id="@product.Id " onmouseenter="GetImage(this.id)" onmouseleave="this.children[0].src='/assets/images/@img.image';this.children[1].style.display='none';">
+                                    <img src="/assets/images/@img.image" width="200"height="220">
+                                    <div id="quickView"><i class="fa fa-eye" aria-hidden="true"></i><a href="#" style="color:white;">  QUICK VIEW</a></div>
+                                </div>
+                                break;
+                            }
+                        }
+                        <div class="card-body" style="text-align: center;">
+                            @foreach(var category in ViewBag.categories)
+                            {
+                                @foreach(var categoryName in ViewBag.categoriesName)
+                                {
+                                    if (@category.ProductId==@product.Id)
+                                    {
+                                        if(@category.CategoryId == @categoryName.Id)
+                                        {
+                                            <a href="#" class="link-secondary text-uppercase fw-light"style="font-family:Century Gothic;letter-spacing: .2rem;font-size:small;">@categoryName.Name<span>.</span></a>
+                                        }
+                                    }
+                                }     
+                            }
+                            <br />
+                            <div style="height:80px;">
+                                <h5 class="card-title text-uppercase" style="font-family:Arial;font-weight:700;font-size:22px;margin-bottom:20px;">@product.Name</h5>
+                            </div>
+                            @foreach(var sizeitem in ViewBag.size)
+                            {
+                                if(@product.Id== @sizeitem.ProductId)
+                                {
+                                    if(@sizeitem.size=="OneSize"){
+                                        <span style="color:#009288">$</span><span class="card-text" style="color:#009288">@sizeitem.Price</span><span style="color:#009288">.00</span>
+                                        break;
+                                    }
+                                    else{
+                                        <span style="color:#009288">$</span><span class="card-text"style="color:#009288">@sizeitem.Price</span><span style="color:#009288">.00 . </span>
+                                    }
+                                }
+                            }
+                            <br />
+                            <button href="#" style="margin-top:10px;background-color:#009288;color:white; border: none;padding: 5px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;font-weight:700;">SELECT OPTIONS</button>
+                        </div>
+                    </div>   
+                }
+            </div>
+
+            <input type="hidden" id="hfCurrentPageIndex" name="currentPageIndex" />
+          </form>
+     </div>
+       <div>
+            <h2 style="color:#009288;">TYPE ONE <br />OF YOUR <br /><span style="font-weight:bold;">FAVOURITS</span></h2>
+           <br />
+            <p>Enjoy your snacks experiance. New here and not sure what<br /> to try first? Check out some of our most popular snacks and <br />product</p>
+          <br />
+          <a href="/product/index" class="btn" style="background-color:#009288; color:#fff;">SHOP NOW</a>
+       </div>
+
+        <div>
+            <img style="width:200px" src="/assets/images/home/granola-bg.jpg"/>
+        </div>
+  </div> 
+</section>
+<div class="container-fluad middle">
+
+
+    <div class="text-center txt" >
+        <i class="fa-solid fa-quote-right" style="color:#009288; font-weight:bold;font-size:55px;"></i>
+        <br />
+        <br />
+        <h2 >I REMEMBER TASTING THE<br />GRANOLA FOR FOR THE FIRST TIME<br /><b>YUM, I WAS HOOKED!</b></h2>
+
+    </div>
+ 
+</div>
+ <div class="d-flex authparg">
+        <div class="text-left">
+            <h2 style="color:#814029;">DON'T MISS OUT ON<br /><span style="font-weight:800;"><b>A CHANCE TO GET:</b></span></h2>
+            <br /><br />
+            <div class="d-flex">
+                <div>
+                    <i class="fa-regular fa-circle-right"></i>
+                </div>
+                <p class="pl-5 mx-2"> Great Snacks containing organic ingredients</p>
+             
+            </div>
+            <hr />
+              <div class="d-flex">
+                 <div>
+                    <i class="fa-regular fa-circle-right"></i>
+                </div>
+                 <p class="pl-5 mx-2">Paleo snacks</p>
+            </div>
+            <hr />
+             <div class="d-flex">
+              <div>
+                    <i class="fa-regular fa-circle-right"></i>
+                </div>
+                <p class="pl-5 mx-2">Dairy-free snacks</p>
+            </div>
+               <hr />
+              <div  class="d-flex">
+                <div>
+                    <i class="fa-regular fa-circle-right"></i>
+                </div>
+                <p class="pl-5 mx-2">Gluten-free snacks</p>
+            </div>
+            <br />
+            <a class="btn btnshop" href="/product/index">SHOP NOW</a>
+        </div>
+        <div class="leftimg">
+            <img src="/assets/images/home/71838913_10157604698774469_1034451055154298880_o.jpg" />
+        </div>
+    </div>
+
+
+@section Scripts{
+<script type="text/javascript">
+    function GetImage(id){
+        jQuery.ajax({
+            url:"/product/GetImage/"+id,
+            dataType: "json",
+            type: "POST",
+            success:function(data){
+                var parent=document.getElementById(id);
+                parent.children[0].src="/assets/images/"+data.image;
+                parent.children[1].style.display="inline";
+            }
+        });
+    }
+    function PagerClick(index){
+        document.getElementById("hfCurrentPageIndex").value=index;
+        document.forms[0].submit();
+    }
+</script>
+<script>
+        var link = document.querySelectorAll(".scroll-to-section");
+        for(var i=0; i < link.length; i++){
+            link[i].children[0].classList.remove("active");
+        }
+        link[0].children[0].classList.add("active");
+    </script>
+}

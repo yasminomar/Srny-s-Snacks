@@ -1,0 +1,38 @@
+﻿@model List<Order>
+@{
+    ViewData["Title"] = "Orders";
+    Layout = "_AdminLayout";
+
+}
+
+<h2>Orders</h2>
+<div class="table-container">
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Street</th>
+        <th>Apartment</th>
+        <th>Status</th>
+        <th>Controls</th>
+    </tr>
+    @foreach (Order item in Model)
+{
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.FirstName</td>
+        <td>@item.LastName</td>
+        <td>@item.Email</td>
+        <td>@item.Street</td>
+        <td>@item.Apartment</td>
+        <td>@item.Status</td>
+         <td>
+            <a class="btn btn-success" asp-action="EditOrder"  asp-route-Id="@item.Id">Edit</a>
+            <a class="btn btn-danger" asp-action="DeleteOrder" asp-route-Id="@item.Id">Delete</a>
+   </td>
+    </tr>
+}
+</table>
+</div>

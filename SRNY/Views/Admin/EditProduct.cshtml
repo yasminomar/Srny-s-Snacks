@@ -1,0 +1,139 @@
+﻿@model SRNY.Models.Product
+@{
+    ViewData["Title"] = "EditProduct";
+    SelectList sizeList = new SelectList(ViewBag.SizeSelect, "Id", "size", "Available", "Price");
+    SelectList imageList = new SelectList(ViewBag.ImageSelect, "Id", "image", "ProductId");
+
+    Layout = "_AdminLayout";
+}
+
+<div class="userAccount">
+
+<h3>Edit Product</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-12  EditForm">
+        <form asp-action="EditProduct" asp-controller="Admin"  enctype = "multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control text" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control text" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="SubName" class="control-label"></label>
+                <input asp-for="SubName" class="form-control text" />
+                <span asp-validation-for="SubName" class="text-danger"></span>
+            </div>
+            <div class="editable">
+                    <h4 class="editable-title">Edit Size</h4>
+                    <div class="d-flex ">
+                                @{
+                                    int i = 0;
+
+                                    @foreach (var item in sizeList)
+                                    {
+                                        //@Html.Partial("_SizeEdit",@Model.Sizes[i]);
+
+                                                     <div class="partial ">
+                                                            <input asp-for="Sizes[i].Id" class="form-control" hidden/>
+                                                             <div class="form-group">
+                                                                <label asp-for="Sizes[i].size" class="control-label">Size Name</label>
+                                                                <input asp-for="Sizes[i].size" class="form-control" />
+                                                                <span asp-validation-for="Sizes[i].size" class="text-danger"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="Sizes[i].Available" class="control-label"></label>
+                                                                <input asp-for="Sizes[i].Available" class="form-control" />
+                                                                <span asp-validation-for="Sizes[i].Available" class="text-danger"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="Sizes[i].Price" class="control-label"></label>
+                                                                <input asp-for="Sizes[i].Price" class="form-control" />
+                                                                <span asp-validation-for="Sizes[i].Price" class="text-danger"></span>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label asp-for="Sizes[i].ProductId" class="control-label" hidden></label>
+                                                                <input asp-for="Sizes[i].ProductId" class="form-control" hidden />
+                                                            </div>
+                                                           <a asp-action="DeleteSize" asp-controller="Admin" class="btn btn-danger" asp-route-ProductId="@Model.Sizes[i].ProductId" asp-route-Id="@Model.Sizes[i].Id"><i class="fa fa-trash" aria-hidden="true"></i>  </a>
+                                                    </div>
+                                        i++;
+
+                                    }
+                                }
+                          </div>
+                                         <a asp-action="AddSize" asp-controller="Admin" asp-route-ProductId="@Model.Id" class="btn btn-success">+ New Size</a>
+
+                        </div>
+                     <div class="editable">
+                        <h4 class="editable-title">Edit Image</h4>
+                    <div class=" row">
+                        @{
+                        int x = 0;
+                        @foreach (var item in imageList)
+                        {
+                        <div class=" col-md-6">
+                        <input type="hidden" asp-for="Images[x].Id" />
+                        <div class="form-group d-flex">
+                        <div style="margin-right:20px">
+                            <img src="~/assets/images/@Model.Images[x].image" width="50px" height="50px">
+                        </div>
+                            <div>
+                            <input  asp-for="Images[x].image" class="form-control" readonly/>
+                            <span asp-validation-for="Images[x].image" class="text-danger"></span>
+                            </div>
+                                                <a asp-action="DeleteImage" asp-controller="Admin" class="btn btn-danger deleteImage" asp-route-Id="@Model.Images[x].Id" asp-route-ProductId="@Model.Images[x].ProductId"><i class="fa fa-trash" aria-hidden="true"></i>  </a>
+
+                        </div>
+                        </div>
+                        x++;
+                        }
+                        }
+                        </div>
+                        <a asp-action="uploadImage" asp-controller="Admin" asp-route-ProductId="@Model.Id" class="btn btn-success">+ Add Image</a>
+                        </div>
+
+
+                     <div class="editable">
+                         <h4 class="editable-title">Edit Category</h4>
+                         <div class=" row">
+                                @{
+                                    int j = 0;
+                                      @foreach (var cateogry in ViewBag.categoryList){
+                                        @foreach (var categoryProduct in ViewBag.categoryProductList){
+                                                @if (cateogry.Id == categoryProduct.CategoryId && categoryProduct.ProductId ==@Model.Id){
+                                                    <div class="col-4">
+                                                    <div class="form-group">
+                                                        <label asp-for="Categories[j].Category.Name" class="control-label"></label>
+                                                        <input asp-for="Categories[j].Category.Name" class="form-control" readonly />
+                                                        <span asp-validation-for="Categories[j].Category.Name" class="text-danger"></span>
+                                                    </div>
+                                                    </div>
+                                                    j++; 
+                                                }
+                                    }
+                                   }
+                        }
+                         </div>
+                         <a asp-action="AddCategoryInProduct" asp-controller="Admin" asp-route-ProductId="@Model.Id" class="btn btn-success">+ Add Category</a>
+                     </div>
+
+                    <div class="form-group">
+
+                        <input type="submit" value="Save" class="btn btn-primary" id="editSave" />
+                    </div>
+            <div class="BackToList">
+                <a asp-action="Product" id="backToList" >Back to List</a>
+             </div>
+
+        </form>
+    </div>
+</div>

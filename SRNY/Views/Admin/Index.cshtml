@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<h2>Dashboard</h2>
+<div class="d-flex">
+        <div class="count productCount">
+        <h2>Products</h2>
+        <p>@ViewBag.countProdcut</p>
+    </div>
+    <div class="count categoryCount">
+        <h2>Categories</h2>
+        <p>@ViewBag.countCategories</p>
+    </div>
+        <div class="count userCount">
+        <h2>Users</h2>
+        <p>@ViewBag.countUsers</p>
+    </div>
+    <div class="count orderCount">
+        <h2>Orders</h2>
+        <p>@ViewBag.countOrder</p>
+    </div>
+</div>
+</div>

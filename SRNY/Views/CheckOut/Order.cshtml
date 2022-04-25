@@ -1,0 +1,140 @@
+﻿@model Order
+@{
+    Layout = "_srny";
+    ViewData["Title"] = "Order";
+}
+@{
+    var total = 0;
+
+<div class="container border-top border-bottom w-100 d-flex justify-content-center my-5" style="height:50px;padding-top:15px;">
+   <i class="fa-solid fa-info"></i>
+   <p style="margin-left:10px">HAVE A COPOUN ? <a id="copoun" href="#">CLICK HERE TO ENTER YOUR COPOUN</a></p>
+</div>
+<div id="copounDiv"></div>
+<div class="container d-flex justify-content-around">
+    <div class="form">
+              <h6 style="color:black;"><b>BELLING DETAILS</b></h6>
+              <hr />
+                  <form asp-action="Order" asp-controller="CheckOut"asp-route-id="@ViewBag.order.Id" method="post" style="width:500px">
+                      <div class="d-flex justify-content-between h-75">
+                           <div style="width:48%;margin-right:4px;">     
+                                <label asp-for="FirstName"></label>
+                                <input asp-for="FirstName" class="form-control"/>
+@*                                <span asp-validation-for="FirstName" class="text-danger"></span>
+*@                          </div>
+         
+                            <div style="width:48%">     
+                                <label asp-for="LastName"></label>
+                                <input asp-for="LastName" class="form-control"/>
+@*                                <span asp-validation-for="LastName" class="text-danger"></span>
+*@                            </div>
+                        </div>
+           
+
+                        <div class="my-3">     
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" class="form-control"/>
+@*                            <span asp-validation-for="Email" class="text-danger"></span>
+*@                        </div>
+    
+                        <div class="my-3">     
+                            <label asp-for="Phone"></label>
+                            <input asp-for="Phone" class="form-control" />
+@*                             <span asp-validation-for="Phone" class="text-danger"></span>
+*@                        </div>
+                        <div class="my-3">     
+                            <label asp-for="Apartment"></label>
+                            <input asp-for="Apartment" class="form-control" />
+@*                             <span asp-validation-for="Apartment" class="text-danger"></span>
+*@                        </div>
+                         <div class="my-3">     
+                            <label asp-for="Street"></label>
+                            <input asp-for="Street" class="form-control" />
+@*                             <span asp-validation-for="Street" class="text-danger"></span>
+*@                        </div>
+                         <div class="my-3">     
+                            <label asp-for="zip"></label>
+                            <input asp-for="zip" class="form-control" />
+@*                             <span asp-validation-for="zip" class="text-danger"></span>
+*@                        </div>
+                        <div class="d-flex justify-content-between py-3 my-4 " style="border-bottom:2px solid gray">
+                            <h6><b> SHIP TO A DIFFERENT ADDRESS</b></h6>
+@*                            <input type="checkbox"/>
+*@                         
+              
+                        </div>
+                        <div class="my-3">
+                            <label>Order Notes (Option)</label>
+                            <textarea placeholder="Notes About Your Order" class="form-control"></textarea>
+                        </div>
+
+                        <input type="submit"  value="submit order" class="btn" style="background-color:#009288; color:white;"/>
+                  </form>
+     </div>
+                 
+    <div class="rightPart" style="width:500px">
+         <h6 style="color:black;"><b>YOUR ORDER</b></h6>
+         <hr />
+         <table class="table table-borderless">
+             <thead>
+               <tr style="background-color:#f7f7f7;">
+                  <th style="padding:20px; padding-right:0;" scope="col">  PRODUCT</th>
+                  <th style="padding:20px; text-align:right;" scope="col">SUBTOTAL</th>
+                </tr>
+             </thead>
+             <tbody>
+                        @foreach(var productInCartItem in ViewBag.productInCart)
+                        {
+                            <tr style="background-color:#fdfdfd;">
+                                @foreach(var product in ViewBag.products)
+                                {
+                                    @if (@product.Id == @productInCartItem.ProductId)
+                                    {
+                                        <td style="padding:18px 20px; padding-right:0;">@product.Name<span> x @productInCartItem.Quantity</span></td>
+                                    }
+                                }
+                                @foreach(var sizeItem in ViewBag.size)
+                                {
+                                    @if (@sizeItem.ProductId == @productInCartItem.ProductId )
+                                    {
+                                        if (@sizeItem.Id == int.Parse(@productInCartItem.Size))
+                                        {
+                                            var subtotal = @sizeItem.Price * @productInCartItem.Quantity;
+                                            total += subtotal;
+                                            <td style="padding:18px 20px; text-align:right; color:#009288;">$@subtotal</td>
+                                        }
+                              
+                                    }
+                                }
+                         </tr> 
+                        }
+                        <tr>
+                            <th style="padding:18px 20px; padding-right:0; background-color:#f7f7f7;">Subtotal</th>
+                            <td style="padding:18px 20px; text-align:right; color:#009288;">$@total</td>
+                        </tr>
+                        <tr>
+                            <th style="padding:18px 20px; padding-right:0; background-color:#f7f7f7;">Total</th>
+                            @{
+                                var totalWithshipPrce = total + ViewBag.order.ShipId;
+                            }
+                            <td style="padding:18px 20px; text-align:right; color:#009288;">$@totalWithshipPrce</td>
+                        </tr>
+             </tbody>
+         </table>
+
+       <div class=" bg-light d-flex" style="width:500px;margin-top:60px;height:80px; align-items:center;">
+           <input type="radio" style="margin-left:10px;" />
+           <div style="padding-left:10px;">
+               <p><b style="color:black;">Pay Pal</b> <a style="color:#28B4AA;padding-left:5px;" href="https://www.paypal.com/eg/home">What is PayPal ?
+               <img style="width:80px;height:30px;margin-left:200px;" src="/assets/images/AM_mc_vs_dc_ae.jpeg" /></a></p>
+           </div>
+       </div>
+       <p class="my-3">Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+       <div class="mt-5">
+           <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+       </div>
+   
+   </div>
+
+</div>
+}

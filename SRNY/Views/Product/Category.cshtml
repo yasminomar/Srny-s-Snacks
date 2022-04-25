@@ -1,0 +1,156 @@
+﻿@model SRNY.Models.ProductViewModel
+@{
+    ViewData["Title"] = "Category";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="container de-flex">
+                <form>
+                    <input type="search" class="search" placeholder="Search products.."/>
+                    <button class="btn my-3 rounded-pill category-search-button">Search</button>
+                </form>
+            
+                <div class="category-container">
+                    <h4 class="details-category-title">Categories</h4>
+                        @foreach(var Item in @ViewBag.categoriesNameList)
+                        {
+                            <div class="my-2">
+                                <a asp-controller="Product" asp-action="Category" asp-route-id="@Item.Id" class="details-category-name">
+                                    @if(@ViewBag.categoriesName.Name == Item.Name)
+                                    {
+                                        <div class="details-category-input" style="background-color:#aaa;"></div>
+                                    }
+                                    else
+                                    {
+                                        <div class="details-category-input"></div>
+                                    }                  
+                                    @Item.Name
+                                </a>
+                            </div>
+                        }
+                </div>
+            </div>
+        </div>
+        <div class="col-9" style="border-left:1px solid #ddd; padding-left:40px;">
+            <form asp-action="Index" asp-controller="Product"method="post">
+                <div class="d-flex flex-wrap">
+                    @foreach(var product in Model.ProductList){
+                        <div class="card" style="width: 243px; border:hidden; margin-bottom:30px;margin-right:20px;">
+                            @foreach(var img in ViewBag.imgs){
+                                if(@product.Id== @img.ProductId)
+                                {
+                                    <div id="@product.Id " onmouseenter="GetImage(this.id)" onmouseleave="this.children[0].children[0].src='/assets/images/@img.image';this.children[1].style.display='none';" >
+                                        <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id">
+                                            <img src="/assets/images/@img.image" width="243" height="243">
+                                        </a>
+                                        <div id="quickView" onclick="ProductQuickView(@product.Id)"><i class="fa fa-eye" aria-hidden="true"></i><a style="color:white; cursor:pointer;" > QUICK VIEW</a></div>
+                                    </div>
+                                    break;
+                                }
+                            }
+                            <div class="card-body" style="text-align: center;">
+                                @foreach(var category in ViewBag.categories)
+                                {
+                                    if (@category.ProductId==@product.Id)
+                                    {
+                                        if(@category.CategoryId == @ViewBag.categoriesName.Id)
+                                        {
+                                            <a asp-controller="Product" asp-action="Category" asp-route-id="@ViewBag.categoriesName.Id" class="link-secondary text-uppercase fw-light"style="font-family:Century Gothic;letter-spacing: .2rem;font-size:small;">@ViewBag.categoriesName.Name<span>.</span></a>
+                                        }
+                                    }    
+                                }
+                                <br />
+                                <div style="height:80px;">
+                                    <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id">
+                                        <h5 class="card-title text-uppercase" style="font-family:Arial;font-weight:700;font-size:22px;margin-bottom:20px; color: var(--bs-body-color);">@product.Name @product.SubName</h5>
+                                    </a>
+                                </div>
+                                @foreach(var sizeitem in ViewBag.size)
+                                {
+                                    if(@product.Id== @sizeitem.ProductId)
+                                    {
+                                        if(@sizeitem.size=="OneSize"){
+                                            <span style="color:#009288">$</span><span class="card-text" style="color:#009288">@sizeitem.Price</span><span style="color:#009288">.00</span>
+                                            break;
+                                        }
+                                        else{
+                                            <span style="color:#009288">$</span><span class="card-text"style="color:#009288">@sizeitem.Price</span><span style="color:#009288">.00 . </span>
+                                        }
+                                    }
+                                }
+                                <br />
+                                <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id" style="margin-top:10px;background-color:#009288;color:white; border: none;padding: 5px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;font-weight:700;">SELECT OPTIONS</a>
+                            </div>
+                        </div>   
+                    }
+                </div>
+                <ul class="pagination">
+                    @for(int i = 1; i < Model.pageCount; i++)
+                    {
+                        <li class="page-item">
+                            @if (i != Model.currentPageIndex)
+                            {
+                                <a class="page-link" href="javascript:PagerClick(@i);">@i</a>
+                            }
+                            else
+                            {
+                                <a class="page-link">@i</a>
+                            }
+                        </li>
+                    }
+                </ul>
+                <input type="hidden" id="hfCurrentPageIndex" name="currentPageIndex" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal show bd-example-modal-lg" id="QuickView" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body" id="ProductDetails">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+@section Scripts{
+<script type="text/javascript">
+    function GetImage(id){
+        jQuery.ajax({
+            url:"/product/GetImage/"+id,
+            dataType: "json",
+            type: "POST",
+            success:function(data){
+                var parent=document.getElementById(id);
+                parent.children[0].children[0].src="/assets/images/"+data.image;
+                parent.children[1].style.display="inline";
+            }
+        });
+    }
+    function PagerClick(index){
+        document.getElementById("hfCurrentPageIndex").value=index;
+        document.forms[1].submit();
+    }
+
+    /**** Product Details ****/
+    function ProductQuickView(id){
+        $.ajax(
+                {url: "/product/quickview/"+id,
+                success: function(result){
+                    $("#ProductDetails").html(result);
+                    $("#QuickView").modal("show");
+        }});
+    }
+
+    /** Active Link **/
+    var link = document.querySelectorAll(".scroll-to-section");
+    for(var i=0; i < link.length; i++){
+        link[i].children[0].classList.remove("active");
+    }
+    link[1].children[0].classList.add("active");
+</script>
+}
+
+

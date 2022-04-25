@@ -1,0 +1,123 @@
+﻿
+#fh2 {
+    padding: 2px 15px;
+    color: orangered;
+    text-align: center;
+}
+
+
+
+#fh6 {
+    padding: 2px 15px;
+    color: #814029;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contact-btnnn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009288;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: #bcf5e7;
+    cursor: pointer;
+}
+
+    .contact-btnnn:hover {
+        background-color: #814029;
+        color: #bcf5e7;
+    }
+
+
+..cont-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    width: 550px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.box-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+}
+
+.prof-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.prof-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    color: #009288;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+    .user-name strong {
+        
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .user-name span {
+      
+        font-size: 0.8rem;
+    }
+
+.reviews {
+    color: gold;
+}
+
+.usercomment p {
+
+    font-size: 1.5rem;
+}
+.box:hover{
+    transform:translateY(-10px);
+    transition:all ease 0.3s;
+}
+.bewView {
+    margin: 20px;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+}
+.product-pic {
+    width: 70px;
+    margin-top:-30px;
+    height: 110px;
+    border-radius: 10%;
+    overflow: hidden;
+    margin-left: 420px;   
+}

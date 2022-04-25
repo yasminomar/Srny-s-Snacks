@@ -1,0 +1,59 @@
+﻿@model SRNY.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "EditUser";
+    Layout = "_AdminLayout";
+}
+<div class="userAccount">
+<h3>Edit User</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-12 EditForm">
+        <form asp-action="EditUser" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Street" class="control-label"></label>
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ZipCode" class="control-label"></label>
+                <input asp-for="ZipCode" class="form-control" />
+                <span asp-validation-for="ZipCode" class="text-danger"></span>
+            </div>
+             
+            @* @foreach (var role in ViewBag.Roles)
+            {
+                <div class="form-group">
+                    <label asp-for="@role.roleName" class="control-label"></label>
+                    <input asp-for="@role.roleName" class="form-control" />
+                    <span asp-validation-for="@role.roleName" class="text-danger"></span>
+                </div>
+            }*@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" id="editSave"/>
+            </div>
+        </form>
+        <div class="BackToList">
+            <a asp-action="Users">Back to List</a>
+        </div>
+    </div>
+</div>
+</div>

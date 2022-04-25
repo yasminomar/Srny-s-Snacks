@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "AddCategoryInProduct";
+    Layout = "_AdminLayout";
+    SelectList Categories = new SelectList(ViewBag.Categories, "Id", "Name");
+}
+
+<h3>Add Category In Product</h3>
+<select asp-items="Categories"></select>
+
+   

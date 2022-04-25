@@ -1,0 +1,45 @@
+﻿@model SRNY.Models.Product
+
+@{
+    ViewData["Title"] = "NewProduct";
+    Layout = "_AdminLayout";
+    SelectList categories = new SelectList(ViewBag.Categories,"Id" ,"Name");
+}
+
+<div class="userAccount">
+
+<h3>New Product</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-12 EditForm">
+        <form asp-action="NewProduct">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control " />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control " />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SubName" class="control-label"></label>
+                <input asp-for="SubName" class="form-control " />
+                <span asp-validation-for="SubName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" id="editSave" />
+            </div>
+            <div class="BackToList">
+                <a asp-action="Product" id="backToList">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+</div>

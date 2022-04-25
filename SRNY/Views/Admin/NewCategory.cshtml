@@ -1,0 +1,32 @@
+﻿@model SRNY.Models.Category
+
+@{
+    ViewData["Title"] = "NewCategory";
+    Layout = "_AdminLayout";
+}
+
+<div class="userAccount">
+<h3>New Category</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-12  EditForm">
+        <form asp-action="NewCategory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" id="editSave"/>
+            </div>
+        </form>
+         <div class="BackToList">
+            <a asp-action="Categories">Back to List</a>
+        </div>
+    </div>
+</div>
+</div>
+
+

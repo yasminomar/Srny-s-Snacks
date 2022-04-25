@@ -1,0 +1,54 @@
+﻿@model List<ApplicationUser>
+@{
+    ViewData["Title"] = "Users";
+    Layout = "_AdminLayout";
+
+}
+
+<h2>Users</h2>
+<div class="d-flex createOne">
+    <div style="margin-right:20px">
+    <a asp-action="AddUser" asp-controller="Admin" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Add User</a>
+</div>
+<div style="margin-right:20px">
+    <a asp-action="RegisterAdmin" asp-controller="Account" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Add Admin</a>
+</div>
+<div style="margin-right:20px">
+    <a asp-action="Add" asp-controller="Role" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Add Role</a>
+</div>
+
+</div>
+ <div class="table-container">
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>Zip Code</th>
+        @*<th>Roles</th>*@
+        <th>Controls</th>
+    </tr>
+    @foreach (ApplicationUser item in Model)
+{
+    <tr>
+        <td>@item.UserName</td>
+        <td>@item.Email</td>
+        <td>@item.Street</td>
+        <td>@item.City</td>
+        <td>@item.ZipCode</td>
+       @* <td>
+            @foreach (var role in ViewBag.Roles)
+            {
+                <p>@role.roleName</p>
+            }
+        </td>*@
+         <td>
+            <a class="btn btn-success" asp-action="EditUser" asp-route-id="@item.Id">Edit</a>
+            <a class="btn btn-danger" asp-action="DeleteUser" asp-route-id="@item.Id">Delete</a>
+   </td>
+    </tr>
+}
+</table>
+
+</div>

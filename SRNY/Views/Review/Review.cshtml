@@ -1,0 +1,53 @@
+﻿@model Reviews
+@{
+
+   Layout = "_srny";
+   ViewData["Title"] = "Index";
+   SelectList Productlist = new SelectList(ViewBag.prod,"Id","Name");    
+}
+<script src="https://use.fontawesome.com/a6f0361695.js"></script>
+
+<h2 id="fh2"> LET US KNOW YOUR REVIEW!</h2>
+<h6 id="fh6">Your review will help us to improve our web hosting quality products, and customer services.</h6>
+<form id="feedback" asp-action ="Review" asp-controller="Review" method="post">
+    <div class="form-group">
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span>
+                <select asp-for="ProductId" class="form-control" asp-items="Productlist"> </select>
+            </div>
+        </div>
+    </div>
+    <div class="pinfo">Rate our overall product.</div>
+    <div class="form-group">
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-heart"></i></span>
+                <fieldset class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" ></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" ></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" ></label>
+                    <input type="radio" id="star1" name="rating" value="1"  /><label class = "full" for="star1" ></label>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <div class="pinfo">Write your feedback.</div>
+    <div class="form-group" style="margin-right: -380px;">
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+                <textarea asp-for="Body" class="form-controll" id="review" rows="4" cols="50"></textarea>
+                <span asp-validation-for="Body" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="contact-btnnn ">Submit</button>
+</form>
+ 
+     
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

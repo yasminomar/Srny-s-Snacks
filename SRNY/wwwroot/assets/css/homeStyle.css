@@ -1,0 +1,173 @@
+﻿#quickView {
+    width: 243px;
+    height: 30px;
+    background-color: #4E3629;
+    position: absolute;
+    margin-top: 213px;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+    display: none;
+    z-index: 6;
+    left:0;
+}
+ #quickView:hover {
+        opacity: 1;
+    }
+
+
+
+.firstbtn {
+    margin-top: 50px;
+    background-color: #63361D;
+    color: white;
+}
+
+.firstbtn:hover {
+    background-color: #814028;
+    color: white;
+}
+
+
+
+.fbody {
+    background-image: url('/assets/images/home/Screenshot 2022-04-11 004145.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+.text {
+    padding-top: 350px;
+}
+
+.left {
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.left img {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    filter: grayscale(50%);
+}
+
+.center {
+    position: absolute;
+    padding: 30px;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    border-top: 1px solid #546263;
+    border-bottom: 1px solid #546263;
+    font-weight: 600;
+}
+
+.ashs {
+    color: brown;
+    margin-top: 270px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.ashs h2 {
+    font-weight: bold;
+}
+
+.middle {
+    background-image: url('/assets/images/home/testimonial-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 500px;
+}
+
+.txt {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    padding-top: 130px;
+}
+.authparg {
+    width: 100%;
+    height: 500px;
+    margin: 100px;
+    margin-left: 200px;
+}
+
+.text-left {
+    height: 500px;
+}
+
+.btnshop {
+    background-color: #814029;
+    color: white;
+}
+
+.btnshop:hover {
+    background-color: black;
+    color: white;
+}
+
+.leftimg img {
+    width: 644px;
+    height: 410px;
+    margin-left: 150px;
+    box-shadow: #814029 -15px 15px;
+}
+/* slider======================*/
+.slideshow-container {
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    transition: 1s ease;
+    overflow: hidden;
+}
+
+.slideshow-container:hover {
+    animation-play-state: paused;
+}
+.homecard {
+    width: 200px;
+    border: none;
+    margin: 5px;
+    transition-duration: 0ms;
+    animation-direction: alternate-reverse;
+    animation: slide 2s infinite;
+    transition: ease-out;
+}
+
+@keyframes slide {
+    20% {
+        transform: translateX(-100%);
+    }
+
+    40% {
+        transform: translateX(-100%);
+    }
+
+    60% {
+        transform: translateX(-100%);
+    }
+
+    80% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}

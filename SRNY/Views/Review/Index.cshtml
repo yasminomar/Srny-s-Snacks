@@ -1,0 +1,73 @@
+﻿@model Reviews
+
+@{
+    Layout = "_srny";
+    ViewData["Title"] = "Index";
+    SelectList Productlist = new SelectList(ViewBag.prod,"Id","Name");
+    SelectList userList = new SelectList(ViewBag.userList,"Id","UserName");
+    SelectList ImagesList = new SelectList(ViewBag.ImagesList,"Id","image");
+}
+<script src="https://use.fontawesome.com/a6f0361695.js"></script>
+ 
+
+<div>
+    <h2 id="fh2">WE APPRECIATE YOUR REVIEW!</h2>
+    <h6 id="fh6">Your review will help us to improve our web hosting quality products, and customer services.</h6>
+    <h2 style="text-align:center"><a href="/Review/Review" class="contact-btnnn"> Add New Review</a></h2> 
+    <div class="bewView row">
+        @foreach (var item in ViewBag.Reviews)
+        {   <div class="cont-box col-6 ">
+                <div class="box ">
+                    <div class="box-head">
+                        <div class="prof">
+                            <div class="prof-pic">
+                                <img src="/assets/images/userProfile/download.png"/>
+                            </div>
+                            <div class="user-name">
+                                @foreach (var user in ViewBag.userList)
+                                {
+                                    if (@item.ApplicationUserId== @user.Id)
+                                    {      <strong>@user.UserName</strong>
+                                            <span>@user.Email</span>                                       
+                                    }
+                                }
+                            </div>  
+                        </div>
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="usercomment">
+                        <p>@item.Body</p>
+                    </div>
+                    <div class="product-pic" >
+                        @foreach (var pro in ViewBag.ImagesList)
+                        {
+                            if (@item.ProductId== @pro.Id)
+                            {     
+                                <img src="/assets/images/@pro.image"/>                                    
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+       
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        var link = document.querySelectorAll(".scroll-to-section");
+        for(var i=0; i < link.length; i++){
+            link[i].children[0].classList.remove("active");
+        }
+        link[2].children[0].classList.add("active");
+    </script>
+}

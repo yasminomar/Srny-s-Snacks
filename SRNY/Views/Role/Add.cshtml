@@ -1,0 +1,34 @@
+﻿@model SRNY.ViewModel.RoleViewModel
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "_AdminLayout";
+}
+
+<div class="userAccount">
+<h3>Add Role</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-12 EditForm">
+        <form asp-action="Add">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" id="editSave"/>
+            </div>
+        </form>
+        <div class="BackToList">
+            <a asp-action="Users" asp-controller="Admin">Back to List</a>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

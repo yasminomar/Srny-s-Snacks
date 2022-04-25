@@ -1,0 +1,69 @@
+﻿.userAccount {
+}
+
+    .userAccount h1 {
+        font-size: 50px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+.UserHeaderLogin {
+    text-align: center
+}
+
+.userAccountColumn {
+    max-width: 50%;
+    margin: auto;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    padding-right:0;
+}
+
+    .userAccountColumn label {
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+        font-size: 16px;
+        font-style: normal
+    }
+
+    .userAccountColumn input.text {
+        padding: 12px 15px;
+        border-width: 1px 1px 3px 1px;
+        border-radius: 1px;
+        border-color: #f2f2f2;
+        font-size: 16px;
+        background-color: #fcfcfc;
+        min-height: 55px
+    }
+
+    .userAccountColumn input[type="submit"] {
+        width: 70%;
+        display: block;
+        margin: auto;
+        padding: 12px 20px;
+        background-color: #009288;
+        border-radius: 30px;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .userAccountColumn input[type="submit"]:hover {
+            background-color: #28B4AA
+        }
+
+    .userAccountColumn .UserActionRedirect {
+        font-family: 'Raleway', sans-serif;
+        color: #333;
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }

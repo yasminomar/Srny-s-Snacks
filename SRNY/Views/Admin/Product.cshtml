@@ -1,0 +1,70 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Product";
+    Layout = "_AdminLayout";
+
+}
+
+<h2>Product</h2>
+<div class="createOne">
+    <a href="/Admin/NewProduct" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i>New</a>
+</div>
+<div class="table-container">
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Price per Size & Avaliblity</th>
+        <th>Cateogries</th>
+        <th>Controls</th>
+    </tr>
+    @foreach (Product item in Model)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>
+                @foreach (var img in ViewBag.ImageList)
+               {
+                    @if(img.ProductId == @item.Id)
+                {
+                    <img src="~/assets/images/@img.image" width="50px" height="50px">
+                }
+               }
+           </td>    
+                <td>
+                    @foreach (var size in ViewBag.SizeList)
+                   {
+                        @if(size.ProductId == @item.Id)
+                        {
+                            <span class="sizeName">@size.size: </span>
+                            <span class="price">@size.Price$ </span>
+                            <span>==>@size.Available</span>
+                            <br />
+                            <br />
+                        }
+                    }
+                </td>
+                <td>
+                    @foreach (var cateogry in ViewBag.categoryList)
+                   {
+                       @foreach (var categoryProduct in ViewBag.categoryProductList)
+                       {
+                           @if (cateogry.Id == categoryProduct.CategoryId && categoryProduct.ProductId ==@item.Id)
+                          {
+                              <span>@cateogry.Name</span>
+                              <br />
+                              <br />
+                          }
+                       }
+                   }
+                </td>
+
+         <td>
+            <a class="btn btn-success"href="/Admin/EditProduct/@item.Id" style="font-size:12px">Edit</a>
+            <a class="btn btn-danger"href="/Admin/DeleteProduct/@item.Id" style="font-size:12px">Delete</a>
+            <a class="btn btn-primary"href="/Admin/GetOne/@item.Id" style="font-size:12px">Details</a>
+   </td>
+    </tr>
+}
+</table>
+</div>

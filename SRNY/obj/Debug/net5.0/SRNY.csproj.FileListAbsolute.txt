@@ -1,0 +1,874 @@
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\appsettings.json
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.exe
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.deps.json
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.json
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.dev.json
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.AssemblyReference.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfoInputs.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfo.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CoreCompileInputs.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\scopedcss\bundle\SRNY.styles.css
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\staticwebassets\SRNY.StaticWebAssets.Manifest.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.input.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.output.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorCoreGenerate.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.Views.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CopyComplete
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\refint\SRNY.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.pdb
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.genruntimeconfig.cache
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\ref\SRNY.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\RegisterAdminAsync.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Role\Add.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Srny.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\_ProductDetails.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmine\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\CheckOut\Order.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Index.cshtml.g.cs
+C:\Users\Yasmine\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Review.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\appsettings.json
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.exe
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.deps.json
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.json
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.dev.json
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.AssemblyReference.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfoInputs.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfo.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CoreCompileInputs.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\scopedcss\bundle\SRNY.styles.css
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\staticwebassets\SRNY.StaticWebAssets.Manifest.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.input.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.output.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorCoreGenerate.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\RegisterAdminAsync.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\CheckOut\Order.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\_ProductDetails.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Index.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Role\Add.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Srny.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cs
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.Views.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CopyComplete
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\refint\SRNY.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.pdb
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\SRNY.genruntimeconfig.cache
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\ref\SRNY.dll
+C:\Users\Rahma\Desktop\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Review.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\appsettings.Development.json
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\appsettings.json
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.exe
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.deps.json
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.json
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.dev.json
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Humanizer.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\MVC Project\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.AssemblyReference.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfoInputs.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfo.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CoreCompileInputs.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.MvcApplicationPartsAssemblyInfo.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\scopedcss\bundle\SRNY.styles.css
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\staticwebassets\SRNY.StaticWebAssets.Manifest.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.input.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.output.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorCoreGenerate.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\RegisterAdminAsync.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\CheckOut\Order.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\_ProductDetails.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Index.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Review.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Role\Add.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Srny.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cs
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.Views.pdb
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CopyComplete
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.dll
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\refint\SRNY.dll
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.pdb
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\SRNY.genruntimeconfig.cache
+E:\MVC Project\SRNY\SRNY\obj\Debug\net5.0\ref\SRNY.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\appsettings.json
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.exe
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.deps.json
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.json
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.dev.json
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Humanizer.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfo.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\scopedcss\bundle\SRNY.styles.css
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\staticwebassets\SRNY.StaticWebAssets.Manifest.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.input.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.output.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorCoreGenerate.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\RegisterAdminAsync.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\CheckOut\Order.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\_ProductDetails.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Index.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Review.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Role\Add.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Srny.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.Views.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CopyComplete
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\refint\SRNY.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.pdb
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\SRNY.genruntimeconfig.cache
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\ref\SRNY.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddSize.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddUser.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Categories.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteImage.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteProduct.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteSize.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditCategory.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditProduct.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditUser.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\GetOneProduct.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\NewCategory.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\NewProduct.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Orders.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Product.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\uploadImage.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Users.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditOrder.cshtml.g.cs
+C:\Users\DELL\Downloads\SRNY (3)\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddCategoryInProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\appsettings.Development.json
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\appsettings.json
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.exe
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.deps.json
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.json
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.runtimeconfig.dev.json
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\SRNY.Views.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Humanizer.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.Mvc.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.Razor.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.Helpers.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Web.WebPages.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\MVC\SRNY\SRNY\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.AssemblyReference.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfoInputs.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.AssemblyInfo.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CoreCompileInputs.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.MvcApplicationPartsAssemblyInfo.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorAssemblyInfo.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\scopedcss\bundle\SRNY.styles.css
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\staticwebassets\SRNY.StaticWebAssets.Manifest.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.input.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.TagHelpers.output.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorCoreGenerate.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Account\RegisterAdminAsync.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddCategoryInProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddSize.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\AddUser.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Categories.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteImage.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\DeleteSize.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditCategory.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditOrder.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\EditUser.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\GetOneProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\NewCategory.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\NewProduct.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Orders.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Product.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\uploadImage.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Admin\Users.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\CheckOut\Order.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Contact\Contact.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\ProductDetails.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Product\_ProductDetails.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Index.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Review\Review.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Role\Add.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_Srny.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.RazorTargetAssemblyInfo.cs
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.Views.pdb
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.csproj.CopyComplete
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.dll
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\refint\SRNY.dll
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.pdb
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\SRNY.genruntimeconfig.cache
+E:\MVC\SRNY\SRNY\obj\Debug\net5.0\ref\SRNY.dll

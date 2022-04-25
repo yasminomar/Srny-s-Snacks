@@ -1,0 +1,55 @@
+﻿@model SRNY.Models.Product
+
+@{
+    ViewData["Title"] = "GetOne";
+        Layout = "_AdminLayout";
+
+}
+
+<div class="d-flex" style="justify-content:space-evenly;align-items:center;font-family: 'Raleway', sans-serif;"> 
+        
+    <div class="" >
+        <h3 class="" style="margin-bottom:10px">Details</h3>
+        <img src="~/assets/images/@ViewBag.Image.image" width="500px" height="500px" style="border-radius:10px">
+    </div>
+ <div class="" style="margin-bottom:20px">
+     <div class="d-flex" style="justify-content:space-between;margin-top:7px">
+         <div>
+                <h4>Name</h4>
+         </div>
+         <div>
+                 <p >@Model.Name</>
+         </div>
+     </div>
+          <div class="d-flex" style="justify-content:space-between;margin-top:7px">
+
+     </div>
+    <h4>Sizes</h4>
+    <ul>
+         @foreach (var item in ViewBag.Sizes){
+                  
+             <li> <p >@item.size</p></li>
+
+     }
+    </ul>
+    <h4>Categories</h4>
+    <ul>
+         @foreach (var cateogry in ViewBag.categoryList)
+                   {
+                       @foreach (var categoryProduct in ViewBag.categoryProductList)
+                       {
+                           @if (cateogry.Id == categoryProduct.CategoryId && categoryProduct.ProductId ==@Model.Id)
+                          {
+                                 <li> <p>@cateogry.Name</p></li>
+
+                          }
+                       }
+                   }
+    </ul>
+     <div class="BackToList">
+                <a asp-action="Product" id="backToList" class="btn btn-primary">Back to List</a>
+     </div>
+
+</div>
+</div>
+

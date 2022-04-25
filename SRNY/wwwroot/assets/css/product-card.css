@@ -1,0 +1,16 @@
+﻿#quickView {
+    width: 243px;
+    height: 30px;
+    background-color: #4E3629;
+    position: absolute;
+    margin-top: 213px;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+    display: none;
+    z-index: 6;
+    left:0;
+}
+ #quickView:hover {
+        opacity: 1;
+    }

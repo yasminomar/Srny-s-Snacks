@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link rel="icon" href="~/assets/images/sarahsnacks-fav.png"/>
+        <title>Srny's Snacks</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" href="~/assets/css/fontawesome.css">
+        <link rel="stylesheet" href="~/fontawesome/css/all.css">
+        <link rel="stylesheet" href="~/assets/css/SRNYLayout.css">
+        <link rel="stylesheet" href="/css/UserDesign.css" />
+        <link rel="stylesheet" href="~/assets/css/product-card.css">
+        <link rel="stylesheet" href="~/css/CartTable.css" />
+        <link rel="stylesheet" href="~/css/QuantityBox.css" />
+        <link rel="stylesheet" href="~/css/Contact.css" />
+        <link rel="stylesheet" href="~/assets/css/homeStyle.css" />
+        <link rel="stylesheet" href="~/assets/css/productDetails.css">
+        <link rel="stylesheet" href="~/css/Review.css" />
+        <link rel="stylesheet" href="~/css/ReviewPosts.css" />
+    </head>
+    <body>
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <div class="logo">
+                                <div>
+                                    <div>
+                                        <i class="fa fa-phone" aria-hidden="true" style="font-size:12px; color:#009288"></i>
+                                        <span style="font-size:14px; font-weight:100;">CALL NOW</span>
+                                    </div>
+                                    <span style="font-weight:600">01275940031</span>
+                                </div>
+                                <a><img src="/assets/images/head-logo.png" style="width:250px; height:60px"></a>
+                                <div class="header-icon">
+                                    <div >
+                                        <ul class=" d-flex" style="align-items:center;">
+                                            @if (User.Identity.IsAuthenticated == false)
+                                            {
+                                                <li class="nav-item">
+                                                    <a href="/account/Login"style="color:black;" class="fa fa-user" aria-hidden="true"></a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li class="nav-item">
+                                                    <div class="welcome-user">Welcome <span>@User.Identity.Name</span></div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        @if (User.Identity.IsAuthenticated == false)
+                                        {
+                                            <a href="/account/Login" style="color:black;" class="fa fa-shopping-cart" aria-hidden="true"></a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/cart/index" style="color:black;" class="fa fa-shopping-cart" aria-hidden="true"></a>
+                                        }                                    </div>
+                                </div>
+                            </div>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="Product" asp-action="Index">Shop</a></li>
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="Review" asp-action="Index">reviews</a></li>
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="Contact" asp-action="Contact">Contact</a></li>
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="AboutUs" asp-action="Index">About US</a></li>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="scroll-to-section"><a asp-area="" asp-controller="Admin" asp-action="Index">Admin Dashboard</a></li>
+                            }
+                        </ul>        
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container-fluid">
+                <main role="main" style="margin-top:200px;">
+                    @RenderBody()
+                </main>
+            </div>
+        </section>
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <section>
+                <div class="footer">
+                    <div class="contact-icons">
+                        <img src="/assets/images/head-logo.png" style="width: 200px; height: 50px;">
+                        <div>
+                            <a><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                            <a><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+                            <a><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-sections">
+                        <div>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <a>9 W Philadelphia St. • York, PA 17401</a>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a>orders@nutsaboutgranola.com</a>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a>01275940031</a>
+                        </div>
+                    </div>
+                    <div class="footer-sections footer-border">
+                        <div><a asp-controller="Product" asp-action="index">Shop Now</a></div>
+                        <div><a>My Account</a></div>
+                        @if (User.Identity.IsAuthenticated == false)
+                        {
+                            <div><a asp-controller="Account" asp-action="Login">Shopping Cart</a></div>
+                        }
+                        else
+                        {
+                            <div><a asp-controller="Cart" asp-action="index">Shopping Cart</a></div>
+                        }
+                    </div>
+                    <div  class="footer-sections">
+                        <div><a>Whole Sales</a></div>
+                        <div><a>About Us</a></div>
+                        <div><a asp-controller="Contact" asp-action="Contact">Contact Us</a></div>
+                    </div>
+                    <div class="footer-border footer-sections">
+                        <img src="/assets/images/WOB_POSITIVECOLOR_STD.png" style="width:200px; height:90px;">
+                    </div>
+                </div>
+            </section>
+            <div class="footer-end">
+                <p>York | Manchester | Windsor | Jefferson | Loganville | Hershey | Lancaster | Harrisburg | Lebanon | Mechanicsburg
+                    © Copyright 2022 Srny's Sweet & Savory Snacks | All Rights Reserved | This site designed and hosted by Enter.Net
+                    This site is protected by reCAPTCHA. Our Privacy Policy and Terms of Service apply.
+                </p>
+            </div>
+        </footer>
+        <!-- ***** Footer End ***** -->
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+
+    </body>
+</html>
+

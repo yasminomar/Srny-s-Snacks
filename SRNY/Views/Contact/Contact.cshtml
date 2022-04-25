@@ -1,0 +1,170 @@
+﻿@using SRNY.Models
+@model Contact
+@{
+    Layout = "_srny";
+    ViewData["Title"] = "Contact";
+}
+<main id="main" class="site-main clr" role="main">
+    <header class="page-header backgraound-img">
+        <div class="container clr page-header-inner">
+            <h1 class="page-header-title clr" itemprop="headline">CONTACT US</h1>
+            <div class="clr page-subheading">
+                We will respond as soon as possible!
+            </div>
+        </div>
+        <span class="background-image-page-header-overlay"></span>
+    </header>
+    <div class="containerrr">
+           <div class="form-con">
+                <form class="signup-form" asp-action="Contact" asp-controller="Contact" method="post">
+                    <div class="form-header">
+                        <h2 class="contact-h2">Contact Us</h2>
+                    </div>
+
+                    <div class="form-body">
+                        <div class="horizontal-group">
+                            <div class="d-flex" style="justify-content:space-between">
+                                <div class="form-group ">
+                                <label asp-for="Fname" class="label-title"></label>
+                                <input asp-for="Fname" class="form-input" />
+                                <span asp-validation-for="Fname" class="text-danger"></span>
+                            </div>
+                            <div class="form-group ">
+                                <label asp-for="Lname" class="label-title"></label>
+                                <input asp-for="Lname" class="form-input" />
+                                <span asp-validation-for="Lname" class="text-danger"></span>
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="label-title"></label>
+                                <input asp-for="Email" class="form-input" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Message" class="label-title"></label>
+                                <textarea asp-for="Message" class="form-input" rows="4" cols="50" style="height:auto"> </textarea>
+                                <span asp-validation-for="Message" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-footer">
+                        <span class="contact-span">* required</span>
+                        <button type="submit" class="contact-btn">Send message</button>
+                    </div>
+                </form>
+             </div>
+
+             <div class="contact-card">
+                         <div>
+                            <div>
+                                <div>
+                                    <div class="card-head">
+                                            <h2 class="contact-h2">Get In touch</h2>
+                                    </div>
+                                        <div class="first">
+                                            <ul class="ull">
+                                                <li class="li1">
+                                                    <span class="iicon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                                    <span><b>Call Us</b><br>0122-243-3766</span>
+                                                </li>
+                                                <li class="li1">
+                                                    <span class="iicon"><i aria-hidden="true" class="far fa-envelope"></i></span>
+                                                    <span><b>Email Us</b><br><a>orders@nutsaboutgranola.com</a></span>
+                                                </li>
+                                                <li class="li1">
+                                                    <span  class="iicon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                                                    <span class="elementor-icon-list-text"><b>Send Mail</b><br>9W Philadelphia St • York PA 17401</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                   
+                                       
+                                            <div class="social-icon">
+                                                <span class="ii">
+                                                    <a>
+                                                        
+                                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="ii">
+                                                    <a>
+                                                        
+                                                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="ii">
+					                                <a >
+						                                <i class="fab fa-pinterest" aria-hidden="true"></i>					
+                                                    </a>
+				                                </span>
+                                                 <span class="ii">
+					                                <a >
+						                                <i class="fab fa-instagram" aria-hidden="true"></i>					
+                                                    </a>
+				                                </span>
+
+                                            </div>
+                                   
+                                  
+                                        <div class="learn">
+                                            <h2 class="contact-h2">Learn More</h2>
+                                        </div>
+                                   
+                                        <div class="lll contact-btn">
+                                        
+                                                <ul class="oew-buttons">
+                                                    <li >
+                                                        <a>
+                                                            <span>Retail Store Hours</span>
+                                                        </a>
+                                                    </li>
+                                                    <li >
+                                                        <a>
+                                                            <span>Become a Wholesaler</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                       
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+    </div> 
+      </div> 
+    <div>
+        
+        <section class="sec1">
+        <div class="sec-container">
+            <div class="con">
+                <h2 class="contact-h2 word">
+                    Feel Good About
+                    <br> <span style="font-weight:800;">what you eat!</span>
+                </h2>
+            </div>
+            <div class="uu">
+                <ul>
+                    <li>
+                        <a href="#" class="contact-btn">
+                            <span>Shop Now!</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+  </div>
+    </section>
+    </div>
+
+</main>
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        var link = document.querySelectorAll(".scroll-to-section");
+        for(var i=0; i < link.length; i++){
+            link[i].children[0].classList.remove("active");
+        }
+        link[3].children[0].classList.add("active");
+    </script>
+}

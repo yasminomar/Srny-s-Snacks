@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "_AdminLayout";
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <title>Srny's Snacks</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="~/assets/css/fontawesome.css">
+        <link rel="stylesheet" href="~/fontawesome/css/all.css">
+        <link rel="stylesheet" href="~/css/UserDesign.css" />
+        <link rel="stylesheet" href="~/css/AdminDesign.css">
+
+        <!-- Additional CSS Files -->
+        </head>
+
+    <body>
+        <div class="pannel">
+            <div class="dashboard">
+                <div class="logo">
+                    <img src="~/assets/images/logoAdmin.jpg" >
+                </div>
+                <div class="routers">
+                    <ul class="routers-Lists">
+                        <li><a asp-action="Index" asp-controller="admin"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a></li>
+                        <li><a asp-action="Product"  asp-controller="admin"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Product</a></li>
+                        <li><a asp-action="Categories"   asp-controller="admin"> <i class="fa fa-bars" aria-hidden="true"></i> Category</a></li>
+                        <li><a asp-action="Orders"  asp-controller="admin"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Order</a></li>
+                        <li><a asp-action="Users"  asp-controller="admin"><i class="fa fa-users" aria-hidden="true"></i> User</a></li>
+                        <li><a asp-action="SignOut" asp-controller="account" class="logout"><i class="fa fa-sign-out" aria-hidden="true" ></i> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                     @RenderBody()
+            </div>
+        </div>
+          <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>
+
